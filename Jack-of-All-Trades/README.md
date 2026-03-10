@@ -1,5 +1,7 @@
 # Challenge Name: [Jack-of-All-Trades]
+
 **Date:** 10 March 2026
+
 **Difficulty:** Easy
 
 1. Enumeration
@@ -55,6 +57,9 @@ I saw that /usr/bin/strings was on the list. I checked GTFOBins and realized I c
 ![Root flag](images/root_flag.png)
 
 4. What I learned
+   
 Trust your gut on images: Steganography is a classic trick; always check the pictures.
+
 SUID is dangerous: A simple tool like strings can become a huge security hole if it has the SUID bit set.
+
 Don't trust default ports: Just because Port 22 is usually for SSH doesn't mean it can't be a website. Stay curious!
